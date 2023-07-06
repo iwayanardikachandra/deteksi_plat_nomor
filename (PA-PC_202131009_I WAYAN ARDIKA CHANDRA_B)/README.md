@@ -1,5 +1,5 @@
+
 # Deteksi Plat Nomor (Identifikasi & Crop)
-#### I Wayan Ardika Chandra (202131009)
 
 ![Image](readme_images/deteksi.png)
 
@@ -39,6 +39,19 @@ Pada tahap development deteksi plat nomor, berikut ini adalah beberapa metode um
 - Pengklasifikasi: Setelah plat nomor terisolasi, tahap pengklasifikasi digunakan untuk mengenali karakter pada plat nomor. Algoritma pengklasifikasi seperti metode template matching, metode pembelajaran mesin (machine learning), atau penggunaan Optical Character Recognition (OCR) dapat digunakan untuk mengenali karakter pada plat nomor.
 
 - Cropping: Setelah karakter pada plat nomor teridentifikasi, proses cropping digunakan untuk memotong dan memisahkan karakter-karakter tersebut dari plat nomor secara individu. Hal ini memudahkan dalam proses pengenalan karakter lebih lanjut.
+
+### Langkah - Langkah Yang Dilakukan Untuk Membuat Program
+Langkah 1: 
+    Persiapkan image (dataset), kumpulkan gambar yang dapat terbaca untuk bisa di deteksi dalam program nantinya. 
+
+Langkah 2:
+    Install dependencies, beberapa library yang diperlukan seperti numpy, cv2, matplotlib dan imutils
+
+Langkah 3:
+    Mulai lakukan proses dengan langkah-langkah seperti membaca gambar, dan preprocessing dan edge detection. Kemudian hasil deteksi dilakukan dan kemudian hasil crop dilakukan proses perubahan ke binary dan edge.
+
+Langkah 4:
+    Hasil output diperhatikan, jika berhasil maka selesai dan jika tidak maka balik ke langkah 1 dengan memepersiapkan dataset yang baik dan terbaca.
 
 ---
 
